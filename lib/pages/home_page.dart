@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:moonshine_v1/components/box.dart';
+import 'package:moonshine_v1/components/button.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -11,11 +13,17 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Moonshine_v1'),
-        centerTitle: true,
-        backgroundColor: Colors.deepPurple,
-      ),
-    );
+      backgroundColor: Colors.deepPurple[500],
+      body: Center(
+        child: MyBox(
+          color: Colors.deepPurple[300],
+          child: MyBotton(
+            color: Colors.deepPurple[200],
+            onTap: () {},
+          ),
+          )
+        ),
+      );
+    
   }
 }
