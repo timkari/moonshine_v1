@@ -1,3 +1,3 @@
 # moonshine_v1
 
-# someting about to be
+# moonshine вспоминал как работает Flutter пример простого приложения по смене темы dark and light mods. Код с ютуба, а я все вспомнил 
