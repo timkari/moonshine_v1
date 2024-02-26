@@ -13,12 +13,12 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[500],
+      backgroundColor: Theme.of(context).colorScheme.background,
       body: Center(
         child: MyBox(
-          color: Colors.deepPurple[300],
+          color: Theme.of(context).colorScheme.primary,
           child: MyBotton(
-            color: Colors.deepPurple[200],
+            color: Theme.of(context).colorScheme.secondary,
             onTap: () {},
           ),
           )
